@@ -1,0 +1,9 @@
+client/android/.gradle
+client/android/app/build/
+server/functions/lib/
+client-android/app/google-services.json
+client-rn/ios/GoogleService-Info.plist
+client-rn/android/app/google-services.json
+client-rn/android/app/debug.keystore
+client-rn/app/firebase/keys.js
+server/.firebaserc

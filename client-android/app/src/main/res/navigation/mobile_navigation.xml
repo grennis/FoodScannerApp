@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.innodroid.foodscannerapp.ui.home.HomeFragment"
+        android:label="@string/title_scan"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.innodroid.foodscannerapp.ui.ingredients.IngredientsFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_ingredients" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.innodroid.foodscannerapp.ui.account.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.innodroid.foodscannerapp.ui.detail.DetailFragment"
+        android:label="@string/scan_details" />
+</navigation>

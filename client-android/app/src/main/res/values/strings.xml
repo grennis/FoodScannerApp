@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ingredient Scanner</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_dashboard">Ingredients</string>
+    <string name="title_account">Account</string>
+    <string name="contains_severe">Contains severe sensitivities</string>
+    <string name="contains_severe_moderate">Contains severe and moderate sensitivities</string>
+    <string name="contains_severe_moderate_mild">Contains severe, moderate, and mild sensitivities</string>
+    <string name="contains_severe_mild">Contains severe and mild sensitivities</string>
+    <string name="contains_moderate">Contains moderate sensitivities</string>
+    <string name="contains_moderate_mild">Contains moderate and mild sensitivities</string>
+    <string name="contains_mild">Contains mild sensitivities</string>
+    <string name="contains_none">No sensitive ingredients</string>
+    <string name="no_ingredients">No ingredients found for this product</string>
+    <string name="scan_another">Scan Another</string>
+    <string name="scans">Scans</string>
+    <string name="error_loading">Unable to find this product</string>
+    <string name="error_listing">Unable to fetch scans</string>
+    <string name="searching">Searching...</string>
+    <string name="loading">Loading...</string>
+    <string name="no_scans">You have no scans yet. Press the camera button in the buttom right to start scanning.</string>
+    <string name="not_authenticated">Please login to start scanning groceries.</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="scan_details">Scan Details</string>
+    <string name="scan">Scan</string>
+</resources>
