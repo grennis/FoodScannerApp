@@ -4,9 +4,11 @@ This app allows a user to scan UPC barcodes for food/grocery items, and then rep
 
 This allows users with food allergies or sensitivies to more easily identify foods they can and can't eat.
 
-![Android 1](screens/android1.png?raw=true "Android 1")
-![Android 2](screens/android2.png?raw=true "Android 2")
-![iOS 1](screens/ios1.png?raw=true "iOS 1")
+<p float="left">
+<img src="https://raw.githubusercontent.com/grennis/FoodScannerApp/master/screens/android1.png" height="600px" />
+<img src="https://raw.githubusercontent.com/grennis/FoodScannerApp/master/screens/android2.png" height="600px" />
+<img src="https://raw.githubusercontent.com/grennis/FoodScannerApp/master/screens/ios1.png" height="600px" />
+</p>
 
 ## In this repo
 
