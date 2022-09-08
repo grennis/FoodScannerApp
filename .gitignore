@@ -7,3 +7,7 @@ client-rn/android/app/google-services.json
 client-rn/android/app/debug.keystore
 client-rn/app/firebase/keys.js
 server/.firebaserc
+client-ios/FoodScanner/GoogleService-Info.plist
+client-ios/FoodScanner/Info.plist
+client-ios/FoodScanner.xcodeproj/project.xcworkspace/xcuserdata
+client-ios/FoodScanner.xcodeproj/xcuserdata

@@ -44,6 +44,12 @@ In order to build this application you need to supply the following:
 
 * Load `client-android` in Android Studio, build and run.
 
+### Building the iOS app
+
+* [Add the URL scheme](https://developers.google.com/identity/sign-in/ios/start-integrating#add_a_url_scheme_for_google_sign-in_to_your_project) of your Firebase project to the iOS build settings. This will create the Info.plist file.
+* Download the GoogleService-Info.plist file of your Firebase project to the client-ios directory.
+* Open the xcodeproj, build and run.
+
 ### Building the React Native apps
 
 * In `client-rn`, directory execute `npm install`
