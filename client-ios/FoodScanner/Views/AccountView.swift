@@ -46,13 +46,14 @@ struct AccountView: View {
 
     var body: some View {
         VStack {
-            if authenticationState.isAuthenticated {
+            if let user = authenticationState.user {
                 Spacer()
-                Text("Logged In")
+                Text(user.name)
+                AsyncImage(url: user.profileImage)
                 Spacer()
                 Button("Logout") {
                     viewModel.signOutClicked()
-                }
+                }.buttonStyle(.borderedProminent)
                 Spacer()
             } else {
                 GoogleSignInButton(action: viewModel.signInClicked)
