@@ -12,26 +12,26 @@ const Tab = createMaterialBottomTabNavigator();
 let icons = {
   ios: {
     focused: {
-      Scan: 'ios-camera',
-      Ingredients: 'ios-list',
-      Account: 'ios-person'
+      ScanTab: 'ios-camera',
+      IngredientsTab: 'ios-list',
+      AccountTab: 'ios-person'
     },
     normal: {
-      Scan: 'ios-camera',
-      Ingredients: 'ios-list',
-      Account: 'ios-person'
+      ScanTab: 'ios-camera',
+      IngredientsTab: 'ios-list',
+      AccountTab: 'ios-person'
     },
   },
   android: {
     focused: {
-      Scan: 'md-camera',
-      Ingredients: 'md-list',
-      Account: 'md-person'
+      ScanTab: 'md-camera',
+      IngredientsTab: 'md-list',
+      AccountTab: 'md-person'
     },
     normal: {
-      Scan: 'md-camera',
-      Ingredients: 'md-list',
-      Account: 'md-person'
+      ScanTab: 'md-camera',
+      IngredientsTab: 'md-list',
+      AccountTab: 'md-person'
     }
   }
 };
@@ -53,9 +53,9 @@ let tabBarStyle = {
 export function Tabs() {
   return (
     <Tab.Navigator shifting={true} barStyle={tabBarStyle} screenOptions={screenOptions} activeColor={themeColor} inactiveColor="gray">
-      <Tab.Screen name="Scan" component={ScanTab} />
-      <Tab.Screen name="Ingredients" component={IngredientsTab} />
-      <Tab.Screen name="Account" component={AccountTab} />
+      <Tab.Screen name="ScanTab" component={ScanTab} />
+      <Tab.Screen name="IngredientsTab" component={IngredientsTab} />
+      <Tab.Screen name="AccountTab" component={AccountTab} />
     </Tab.Navigator>
   )
 }

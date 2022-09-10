@@ -3,7 +3,7 @@ import { View, Button, Text, Image } from 'react-native';
 import { GlobalStyles } from '../components/styles';
 import { loginWithGoogle, logout } from "../firebase/auth";
 import AppContext from "../context/AppContext";
-import { GoogleSigninButton } from "@react-native-community/google-signin";
+import { GoogleSigninButton } from "@react-native-google-signin/google-signin";
 
 export function Profile({ navigation }) {
   const [loading, setLoading] = useState(false);

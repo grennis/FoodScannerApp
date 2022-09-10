@@ -52,9 +52,10 @@ In order to build this application you need to supply the following:
 
 ### Building the React Native apps
 
-* In `client-rn`, directory execute `npm install`
-* In `client-rn/ios`, execute `pod install`
-* In `client-rn` execute `npm start android` or `npm start ios`
+* In Xcode, [Add the URL scheme](https://developers.google.com/identity/sign-in/ios/start-integrating#add_a_url_scheme_for_google_sign-in_to_your_project) of your Firebase project to the iOS build settings.
+* Create the file `app/firebase/keys.js` with content `googleWebClientID = '(Your client ID)';`
+* Run `npm install && cd ios && pod install && cd ..`
+* Run `npx react-native run-ios` or `npx react-native run-android`
 
 ## Disclaimer
 
