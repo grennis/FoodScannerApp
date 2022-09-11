@@ -14,8 +14,8 @@ import androidx.core.view.isGone
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.google.zxing.integration.android.IntentIntegrator
-import com.innodroid.foodscannerapp.R
 import com.innodroid.foodscannerapp.databinding.FragmentHomeBinding
+import com.innodroid.foodscannerapp.R
 import com.innodroid.foodscannerapp.model.Scan
 import com.innodroid.foodscannerapp.services.Status
 import getNavigationResult

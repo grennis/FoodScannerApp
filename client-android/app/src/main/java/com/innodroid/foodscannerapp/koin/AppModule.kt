@@ -11,7 +11,7 @@ import com.innodroid.foodscannerapp.services.scans.ScansService
 import com.innodroid.foodscannerapp.ui.detail.DetailViewModel
 import com.innodroid.foodscannerapp.ui.home.HomeViewModel
 import com.innodroid.foodscannerapp.ui.ingredients.IngredientsViewModel
-import org.koin.android.viewmodel.dsl.viewModel
+import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
 val appModule = module {

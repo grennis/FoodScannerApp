@@ -42,6 +42,7 @@ In order to build this application you need to supply the following:
 
 ### Building the native Android app
 
+* In Firebase console set the Android SHA1 fingerprint to your keystore's value.
 * Load `client-android` in Android Studio, build and run.
 
 ### Building the iOS app

@@ -9,7 +9,8 @@ fun FoodScannerApplication.initializeKoin() {
     val self = this
 
     startKoin {
-        androidLogger()
+        // https://github.com/InsertKoinIO/koin/issues/1076
+        // androidLogger()
         androidContext(self)
         modules(appModule)
     }
